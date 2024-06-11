@@ -3,13 +3,22 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "tw:run": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+    "tw:run": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
+    "build": "webpack --mode production",
+    "start": "webpack serve --mode development"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "devDependencies": {
-    "tailwindcss": "^3.4.4"
+    "autoprefixer": "^10.4.19",
+    "css-loader": "^7.1.2",
+    "postcss": "^8.4.38",
+    "postcss-loader": "^8.1.1",
+    "style-loader": "^4.0.0",
+    "tailwindcss": "^3.4.4",
+    "webpack": "^5.92.0",
+    "webpack-cli": "^5.1.4"
   }
 }
