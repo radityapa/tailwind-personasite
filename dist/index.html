@@ -4,45 +4,38 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Personal Website</title>
-    <link href="/dist/output.css" rel="stylesheet" />
-    <style>
-      .flex-row {
-        display: flex;
-        align-items: center;
-      }
-    </style>
+    <link href="./output.css" rel="stylesheet" />
   </head>
-  <body class="bg-[#305489]">
+  <body class="bg-gradient-to-r from-sky-900 to-cyan-700">
     <div class="flex justify-between p-16">
       <div>
         <h1 class="text-white">Raditya</h1>
       </div>
       <div>
         <button
-          class="text-white bg-green-700 rounded-full text-sm hover:bg-green-800 focus:outline-none focus:ring-2 px-5 py-2.5 me-2"
+          class="text-black bg-[#cadb28] rounded-full text-sm focus:outline-none focus:ring-2 px-5 py-2.5 me-2"
         >
           Home
-        </button>
-        <button
-          class="text-white bg-green-700 rounded-full text-sm hover:bg-green-800 focus:outline-none focus:ring-2 px-5 py-2.5 me-2"
-        >
-          Contact
         </button>
       </div>
     </div>
     <section class="grid grid-cols-2">
       <div class="p-32">
-        <h1 class="font-medium text-7xl text-white mb-4">Hello,</h1>
-        <div class="flex-row mb-8">
-          <h1 class="text-4xl lg:text-7xl text-white mr-6">I am</h1>
+        <h1 class="font-medium text-7xl text-white mb-4">Hello, I am</h1>
+        <div class="flex flex-row items-center mb-8">
           <h1
-            class="text-4xl lg:text-7xl text-white font-bold underline decoration-custom-underline underline-offset-8"
+            class="flex flex-center items-center text-7xl whitespace-nowrap text-white font-bold underline decoration-custom-underline underline-offset-8"
           >
-            Raditya
+            Raditya P Adibrata
           </h1>
           <h1 class="font-medium text-7xl text-white">✌️</h1>
         </div>
-        <p class="text-white text-xl">
+        <h1
+          class="flex flex-center items-center animate-typing overflow-hidden whitespace-nowrap text-5xl text-white font-bold"
+        >
+          Future Software Engineer
+        </h1>
+        <p class="text-white text-xl mt-8">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
           perferendis dolorum animi consequuntur quam ut modi ex nesciunt
           exercitationem assumenda, itaque sed. Cupiditate impedit molestias ex
@@ -73,21 +66,21 @@
           />
         </button>
         <div
-          class="text-white items-center justify-center ml-32 mt-32 text-2xl p-0"
+          class="text-white flex items-center justify-between text-2xl p-0 mt-20"
         >
-          <div class="grid grid-cols-2 mb-2">scan and hit me up!</div>
-          <div class="grid grid-cols-2 ml-16 justify-end">
-            <img
-              src="https://lh3.googleusercontent.com/drive-viewer/AKGpihboG8DpDENmcQzlgy3XTH29INsfiPSt0l-CauD8M8N_4GNZ4Q0c6wudZt_AzfdHejRVwmOZD7mv9UjfbFt4Mk7VB3Kj6T31mv4=s2560"
-              style="height: 150px"
-              class="justify-end"
-            />
-            <img
-              src="/assets/barcode-email.svg"
-              style="height: 200px"
-              class="rounded-2xl"
-            />
-          </div>
+          <h1>scan and hit me up!</h1>
+        </div>
+        <div class="flex items-center justify-center">
+          <img
+            src="https://lh3.googleusercontent.com/drive-viewer/AKGpihboG8DpDENmcQzlgy3XTH29INsfiPSt0l-CauD8M8N_4GNZ4Q0c6wudZt_AzfdHejRVwmOZD7mv9UjfbFt4Mk7VB3Kj6T31mv4=s2560"
+            style="height: 150px"
+            class="justify-end"
+          />
+          <img
+            src="./assets/barcode-email.svg"
+            style="height: 200px"
+            class="rounded-2xl"
+          />
         </div>
       </div>
     </section>
